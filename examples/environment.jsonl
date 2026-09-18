@@ -1,0 +1,2 @@
+{"customer_owner": "customer-platform", "platform_owner": "nango-platform", "cloud_account_id": "123456789012", "config_revision": "sha256:abcedf", "observability_ready": true, "recovery_runbook_tested": true}
+{"customer_owner": "", "platform_owner": "", "cloud_account_id": "123", "config_revision": "main", "observability_ready": false, "recovery_runbook_tested": false}

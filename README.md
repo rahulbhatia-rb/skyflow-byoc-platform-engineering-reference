@@ -20,7 +20,12 @@ This pure Python policy layer can sit behind a GitOps workflow, internal CLI, or
 
 ```bash
 python3 -m unittest discover -s tests -v
+python3 -m src.app < examples/environment.jsonl
 ```
+
+The JSONL sample demonstrates a handover-ready environment and a rejected
+environment, with the ownership, isolation, and recovery evidence exposed as
+machine-readable reasons.
 
 ## Scope and candour
 
